@@ -1,2 +1,2 @@
 # plex-webhook
-Express App for receiving Plex Webhook events
+AWS Lambda for receiving Plex webhooks
