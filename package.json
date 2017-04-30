@@ -4,14 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "precommit": "lint-staged"
+    "start": "node-lambda run",
+    "package": "node-lambda package",
+    "deploy": "TMPDIR=/tmp node-lambda deploy",
+    "precommit": "lint-staged",
+    "postinstall": "node-lambda setup"
   },
   "dependencies": {
-    "express": "^4.15.2",
+    "busboy": "^0.2.14",
     "husky": "^0.13.3",
     "lint-staged": "^3.4.1",
-    "multer": "^1.3.0",
+    "node-lambda": "^0.9.0",
     "prettier": "^1.2.2"
   },
   "lint-staged": {
