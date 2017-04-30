@@ -1,3 +1,9 @@
+# AWS Lambda
+.env
+deploy.env
+event.json
+build
+
 # Logs
 logs
 *.log
