@@ -11,7 +11,9 @@
     "postinstall": "node-lambda setup"
   },
   "dependencies": {
-    "busboy": "^0.2.14",
+    "busboy": "^0.2.14"
+  },
+  "devDependencies": {
     "husky": "^0.13.3",
     "lint-staged": "^3.4.1",
     "node-lambda": "^0.9.0",
