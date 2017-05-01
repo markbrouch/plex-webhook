@@ -58,5 +58,5 @@ exports.handler = (event, context, callback) => {
     }
   });
 
-  busboy.write(Buffer.from(event.body, 'base64').toString('utf8'));
+  busboy.write(Buffer.from(event.body, 'base64'));
 };
